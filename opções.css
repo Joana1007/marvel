@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 60%;
+  margin: 0;
+  font-family: 'Unica One', sans-serif;
+  background: #111;
+  font-size: 25%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5rem;
+}
+
+.heading {
+  color: #eee;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.button-1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#c11515 ;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 300px;
+  margin-left: center;
+  margin-right: center;
+}
+
+.button:hover {background-color: #c11515}
+
+.button:active {
+  background-color: #f83a3a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-2 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#c11515 ;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 300px;
+  margin-left: center;
+  margin-right: center;
+}
+
+.button:hover {background-color: #c11515}
+
+.button:active {
+  background-color: #f83a3a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media only screen and (min-width: 600px){
+
+
+}
